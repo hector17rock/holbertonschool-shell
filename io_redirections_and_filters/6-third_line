@@ -1,3 +1,2 @@
 #!/bin/bash
-# Display the third line of the file 'iacta'
-awk 'NR==3' iacta
+head -3 iacta | tail -1
