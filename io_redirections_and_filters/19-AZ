@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "A quick coyote" | tr 'Ac' 'Ze'
+tr 'Ac' 'Ze'
