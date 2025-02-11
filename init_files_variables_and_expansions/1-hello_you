@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e '#!/bin/bash\n echo "Hello, $(whoami)"'
+echo "Hello $(whoami)!"
