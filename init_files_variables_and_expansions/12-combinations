@@ -1,2 +1,2 @@
 #!/bin/bash
-su student_jail -c 'timeout 30 bash -c '"'"'echo {a..z}{a..z} | tr 
+su student_jail -c 'timeout 30 bash -c "echo {a..z}{a..z} | tr -d \"o\" | tr \" \" \"\n\" | grep -v \"^oo$"'
