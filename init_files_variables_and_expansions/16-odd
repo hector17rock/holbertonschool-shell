@@ -1,2 +1,2 @@
 #!/bin/bash
-printf -ne 'print if $. % 2 == 1'
+perl -ne 'print "$_" if $. % 2 == 1'
