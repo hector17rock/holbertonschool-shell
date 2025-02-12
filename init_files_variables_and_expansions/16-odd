@@ -1,2 +1,2 @@
 #!/bin/bash
-perl -ne 'print "$_" if $. % 2 == 1'
+perl -ne 'chomp; print "$_\n" if $. % 2 == 1'
