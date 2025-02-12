@@ -1,3 +1,2 @@
 #!/bin/bash
 perl -ne 'print $_ if $. % 2 == 1'
-
