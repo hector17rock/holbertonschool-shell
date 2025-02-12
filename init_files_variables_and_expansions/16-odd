@@ -1,2 +1,2 @@
 #!/bin/bash
-nl -ba | grep -E '^[0-9]*[02468]\s' | cut -f2-
+echo -e "Line 1\nLine 2\nLine 3\nLine 4\nLine 5" | ./every_other_line.sh
